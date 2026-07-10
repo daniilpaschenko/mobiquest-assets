@@ -1,0 +1,105 @@
+{
+    "id": "solid",
+    "title": "SOLID",
+    "theory": [
+        {
+            "id": "solid_1",
+            "title": "S — Single Responsibility Principle",
+            "body": "Класс должен иметь только одну причину для изменения, то есть отвечать за одну задачу. Если класс делает и загрузку данных, и их отображение, и логирование — это нарушение принципа."
+        },
+        {
+            "id": "solid_2",
+            "title": "O — Open/Closed Principle",
+            "body": "Классы должны быть открыты для расширения, но закрыты для изменения. Новую функциональность добавляют через наследование или композицию, не меняя существующий проверенный код."
+        },
+        {
+            "id": "solid_3",
+            "title": "L — Liskov Substitution Principle",
+            "body": "Объекты дочернего класса должны быть заменяемы объектами родительского класса без нарушения корректности программы. Наследник не должен сужать контракт или менять ожидаемое поведение."
+        },
+        {
+            "id": "solid_4",
+            "title": "I — Interface Segregation Principle",
+            "body": "Клиенты не должны зависеть от методов, которые они не используют. Лучше несколько маленьких специализированных интерфейсов, чем один большой универсальный."
+        },
+        {
+            "id": "solid_5",
+            "title": "D — Dependency Inversion Principle",
+            "body": "Зависимости должны строиться на абстрациях, а не на конкретных реализациях. Это достигается через внедрение зависимостей (dependency injection)."
+        }
+    ],
+    "practice": [
+        {
+            "id": "solid_q1",
+            "question": "Класс UserRepository одновременно парсит JSON, сохраняет в базу и отправляет аналитику. Какой принцип нарушен?",
+            "options": [
+                "Open/Closed",
+                "Single Responsibility",
+                "Liskov Substitution",
+                "Dependency Inversion"
+            ],
+            "correctIndex": 1,
+            "explanation": "Класс отвечает сразу за несколько задач, значит у него несколько причин для изменения — это нарушение SRP."
+        },
+        {
+            "id": "solid_q2",
+            "question": "Какой принцип говорит, что новую функциональность лучше добавлять через расширение, а не через правку существующего кода?",
+            "options": [
+                "Open/Closed",
+                "Interface Segregation",
+                "Single Responsibility",
+                "Liskov Substitution"
+            ],
+            "correctIndex": 0,
+            "explanation": "Open/Closed Principle требует расширяемости без изменения уже работающего кода."
+        },
+        {
+            "id": "solid_q3",
+            "question": "Наследник переопределил метод так, что он теперь выбрасывает исключение вместо ожидаемого поведения родителя. Какой принцип нарушен?",
+            "options": [
+                "Dependency Inversion",
+                "Single Responsibility",
+                "Liskov Substitution",
+                "Open/Closed"
+            ],
+            "correctIndex": 2,
+            "explanation": "LSP требует, чтобы наследник мог заменить родителя без изменения корректности поведения программы."
+        },
+        {
+            "id": "solid_q4",
+            "question": "Интерфейс Animal содержит методы fly(), swim(), walk(). Класс Dog вынужден реализовывать fly() пустым методом. Какой принцип нарушен?",
+            "options": [
+                "Interface Segregation",
+                "Open/Closed",
+                "Single Responsibility",
+                "Liskov Substitution"
+            ],
+            "correctIndex": 0,
+            "explanation": "ISP требует разделения интерфейса на более мелкие, чтобы классы не зависели от ненужных им методов."
+        },
+        {
+            "id": "solid_q5",
+            "question": "Класс высокого уровня напрямую создаёт экземпляр конкретной реализации базы данных вместо работы через абстракцию. Какой принцип нарушен?",
+            "options": [
+                "Dependency Inversion",
+                "Interface Segregation",
+                "Single Responsibility",
+                "Open/Closed"
+            ],
+            "correctIndex": 0,
+            "explanation": "DIP требует зависимости от абстракций, а не от конкретных реализаций нижнего уровня."
+        },
+        {
+            "id": "solid_q6",
+            "question": "Что помогает соблюдать Dependency Inversion Principle на практике во Flutter/Dart?",
+            "options": [
+                "Использование глобальных переменных",
+                "Внедрение зависимостей через конструктор (dependency injection)",
+                "Наследование от абстрактного класса без переопределения методов",
+                "Использование static методов везде"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dependency injection позволяет классу зависеть от абстракции, а не от конкретной реализации, что и требует DIP."
+        }
+    ]
+}

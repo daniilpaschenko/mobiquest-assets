@@ -1,0 +1,88 @@
+{
+    "id": "flutter_levels",
+    "title": "Уровни архитектуры Flutter",
+    "theory": [
+        {
+            "id": "flutter_levels_1",
+            "title": "Framework layer",
+            "body": "Верхний уровень, написанный на Dart. Включает слои Widgets, Rendering, Animation, Painting и Foundation. Именно с ним взаимодействует разработчик, создавая UI из виджетов."
+        },
+        {
+            "id": "flutter_levels_2",
+            "title": "Rendering layer",
+            "body": "Слой, отвечающий за layout (расположение), отрисовку и композицию — работает с RenderObject, вычисляет размеры, позиции и формирует итоговое изображение на экране."
+        },
+        {
+            "id": "flutter_levels_3",
+            "title": "Engine layer",
+            "body": "Написан преимущественно на C++, включает Impeller (движок рендеринга графики) и отвечает за низкоуровневую растеризацию, работу с текстом, изображениями и композицией слоёв на GPU."
+        },
+        {
+            "id": "flutter_levels_4",
+            "title": "Embedder layer",
+            "body": "Платформенно-специфичный слой, интегрирующий Flutter Engine с конкретной ОС (Android, iOS, Windows и т.д.) — отвечает за жизненный цикл приложения, ввод, рендер-поверхность и доступ к нативным API."
+        }
+    ],
+    "practice": [
+        {
+            "id": "flutter_levels_q1",
+            "question": "На каком языке написан Framework layer Flutter?",
+            "options": [
+                "C++",
+                "Dart",
+                "Kotlin",
+                "Swift"
+            ],
+            "correctIndex": 1,
+            "explanation": "Framework layer, включающий Widgets, Rendering и другие подслои, написан на Dart."
+        },
+        {
+            "id": "flutter_levels_q2",
+            "question": "Какой слой отвечает за низкоуровневую растеризацию и работу с Skia?",
+            "options": [
+                "Widgets layer",
+                "Rendering layer",
+                "Engine layer",
+                "Embedder layer"
+            ],
+            "correctIndex": 2,
+            "explanation": "Engine layer написан на C++ и включает Impeller — движок, отвечающий за растеризацию графики."
+        },
+        {
+            "id": "flutter_levels_q3",
+            "question": "Какой слой отвечает за интеграцию Flutter с конкретной операционной системой?",
+            "options": [
+                "Framework layer",
+                "Rendering layer",
+                "Engine layer",
+                "Embedder layer"
+            ],
+            "correctIndex": 3,
+            "explanation": "Embedder layer платформенно-специфичен и связывает Flutter Engine с конкретной ОС — Android, iOS и другими."
+        },
+        {
+            "id": "flutter_levels_q4",
+            "question": "Какой слой вычисляет размеры и позиции элементов на экране?",
+            "options": [
+                "Rendering layer",
+                "Embedder layer",
+                "Engine layer",
+                "Framework layer"
+            ],
+            "correctIndex": 0,
+            "explanation": "Rendering layer работает с RenderObject и отвечает именно за layout — вычисление размеров и позиций."
+        },
+        {
+            "id": "flutter_levels_q5",
+            "question": "Почему разделение на слои (Framework/Engine/Embedder) полезно для кроссплатформенности Flutter?",
+            "options": [
+                "Потому что каждый слой пишется на разных языках без всякой причины",
+                "Потому что общий Framework и Engine переиспользуются на всех платформах, а меняется только Embedder",
+                "Потому что так требует Google",
+                "Разделение на слои не связано с кроссплатформенностью"
+            ],
+            "correctIndex": 1,
+            "explanation": "Framework и Engine остаются практически одинаковыми на всех платформах, а платформенная специфика инкапсулирована в Embedder layer — это и обеспечивает кроссплатформенность."
+        }
+    ]
+}

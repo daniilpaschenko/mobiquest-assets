@@ -1,0 +1,220 @@
+{
+    "items": [
+        {
+            "id": "oop",
+            "title": "ООП",
+            "version": 1,
+            "description": "Инкапсуляция, наследование, полиморфизм и абстракция",
+            "tags": [
+                "универсальное",
+                "архитектура"
+            ]
+        },
+        {
+            "id": "solid",
+            "title": "SOLID",
+            "version": 1,
+            "description": "5 уникальных принципов дизайна",
+            "tags": [
+                "универсальное",
+                "архитектура",
+                "паттерны"
+            ]
+        },
+        {
+            "id": "dart_async",
+            "title": "Асинхронность в Dart",
+            "version": 1,
+            "description": "Основы асинхронного программирования в Dart",
+            "tags": [
+                "dart",
+                "асинхронное программирование"
+            ]
+        },
+        {
+            "id": "flutter_widget_lifecycle",
+            "title": "Жизненный цикл виджетов Flutter",
+            "version": 1,
+            "description": "Методы жизненного цикла виджетов и их назначение",
+            "tags": [
+                "flutter"
+            ]
+        },
+        {
+            "id": "provider",
+            "title": "Provider",
+            "version": 1,
+            "description": "Пакет для управления состоянием в Flutter",
+            "tags": [
+                "flutter",
+                "управление состоянием"
+            ]
+        },
+        {
+            "id": "bloc",
+            "title": "BLoC",
+            "version": 1,
+            "description": "Паттерн проектирования для управления состоянием в Flutter",
+            "tags": [
+                "flutter",
+                "dart",
+                "управление состоянием",
+                "архитектура"
+            ]
+        },
+        {
+            "id": "rest",
+            "title": "REST",
+            "version": 1,
+            "description": "Архитектурный стиль взаимодействия компьютерных систем в интернете",
+            "tags": [
+                "универсальное",
+                "сеть",
+                "backend"
+            ]
+        },
+        {
+            "id": "dio",
+            "title": "Dio",
+            "version": 1,
+            "description": "Популярный HTTP-клиент для Dart с расширенными возможностями",
+            "tags": [
+                "dart",
+                "flutter",
+                "сеть"
+            ]
+        },
+        {
+            "id": "keys",
+            "title": "Keys во Flutter",
+            "version": 1,
+            "description": "Использование ключей для управления состоянием виджетов",
+            "tags": [
+                "flutter"
+            ]
+        },
+        {
+            "id": "flutter_levels",
+            "title": "Уровни Flutter",
+            "version": 1,
+            "description": "Разделение Flutter на слои: Framework, Rendering, Engine и Embedder",
+            "tags": [
+                "flutter",
+                "архитектура",
+                "продвинутый уровень"
+            ]
+        },
+        {
+            "id": "flutter_trees",
+            "title": "Деревья Flutter: Widget, Element, RenderObject",
+            "version": 1,
+            "description": "Основы про деревья виджетов, элементы и рендер-объекты в Flutter",
+            "tags": [
+                "flutter",
+                "продвинутый уровень"
+            ]
+        },
+        {
+            "id": "pattern_matching",
+            "title": "Pattern matching в Dart",
+            "version": 1,
+            "description": "Использование pattern matching, деструктуризации и sealed классов в Dart 3",
+            "tags": [
+                "dart",
+                "продвинутый уровень"
+            ]
+        },
+        {
+            "id": "dependency_injection",
+            "title": "Dependency Injection",
+            "version": 1,
+            "description": "Паттерн создания зависимостей для упрощения тестирования и управления ими",
+            "tags": [
+                "универсальное",
+                "архитектура",
+                "паттерны"
+            ]
+        },
+        {
+            "id": "clean_architecture",
+            "title": "Clean Architecture",
+            "version": 1,
+            "description": "Архитектурный стиль, разделяющий приложение на слои с четкими зависимостями",
+            "tags": [
+                "универсальное",
+                "архитектура",
+                "продвинутый уровень"
+            ]
+        },
+        {
+            "id": "websocket",
+            "title": "WebSocket",
+            "version": 1,
+            "description": "Протокол для постоянного двустороннего соединения между клиентом и сервером",
+            "tags": [
+                "универсальное",
+                "сеть",
+                "продвинутый уровень"
+            ]
+        },
+        {
+            "id": "go_router",
+            "title": "go_router",
+            "version": 1,
+            "description": "Официально рекомендуемый пакет для декларативной маршрутизации во Flutter",
+            "tags": [
+                "flutter",
+                "маршрутизация"
+            ]
+        },
+        {
+            "id": "basic_debugging",
+            "title": "Basic Debugging",
+            "version": 1,
+            "description": "Основы отладки кода: точки остановки, watch-выражения, стек вызовов и логирование",
+            "tags": [
+                "универсальное",
+                "дебаг"
+            ]
+        },
+        {
+            "id": "mvvm",
+            "title": "MVVM",
+            "version": 1,
+            "description": "Паттерн проектирования, разделяющий приложение на Model, View и ViewModel",
+            "tags": [
+                "универсальное",
+                "архитектура"
+            ]
+        },
+        {
+            "id": "method_channels",
+            "title": "Method Channels",
+            "version": 1,
+            "description": "Механизм взаимодействия между Flutter и нативным кодом платформы",
+            "tags": [
+                "flutter",
+                "dart",
+                "продвинутый уровень"
+            ]
+        },
+        {
+            "id": "dart_fundamentals",
+            "title": "Основы типов и переменных Dart",
+            "version": 1,
+            "description": "Обзор ключевых особенностей типов и переменных в языке Dart",
+            "tags": [
+                "dart"
+            ]
+        },
+        {
+            "id": "dart_runtime",
+            "title": "Dart VM и модель исполнения",
+            "version": 1,
+            "description": "Обзор runtime-среды Dart и особенностей выполнения кода",
+            "tags": [
+                "dart"
+            ]
+        }
+    ]
+}
