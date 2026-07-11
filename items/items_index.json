@@ -215,6 +215,17 @@
             "tags": [
                 "dart"
             ]
+        },
+        {
+            "id": "hive",
+            "title": "Hive",
+            "version": 1,
+            "description": "noSQL база данных для Flutter и Dart",
+            "tags": [
+                "flutter",
+                "dart",
+                "база данных"
+            ]
         }
     ]
 }
