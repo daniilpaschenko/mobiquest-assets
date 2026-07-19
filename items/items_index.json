@@ -100,8 +100,7 @@
             "description": "Разделение Flutter на слои: Framework, Rendering, Engine и Embedder",
             "tags": [
                 "flutter",
-                "архитектура",
-                "продвинутый уровень"
+                "архитектура"
             ]
         },
         {
@@ -110,8 +109,7 @@
             "version": 1,
             "description": "Основы про деревья виджетов, элементы и рендер-объекты в Flutter",
             "tags": [
-                "flutter",
-                "продвинутый уровень"
+                "flutter"
             ]
         },
         {
@@ -142,8 +140,7 @@
             "description": "Архитектурный стиль, разделяющий приложение на слои с четкими зависимостями",
             "tags": [
                 "универсальное",
-                "архитектура",
-                "продвинутый уровень"
+                "архитектура"
             ]
         },
         {
@@ -153,8 +150,7 @@
             "description": "Протокол для постоянного двустороннего соединения между клиентом и сервером",
             "tags": [
                 "универсальное",
-                "сеть",
-                "продвинутый уровень"
+                "сеть"
             ]
         },
         {
@@ -194,8 +190,7 @@
             "description": "Механизм взаимодействия между Flutter и нативным кодом платформы",
             "tags": [
                 "flutter",
-                "dart",
-                "продвинутый уровень"
+                "dart"
             ]
         },
         {
@@ -236,7 +231,7 @@
                 "универсальное",
                 "архитектура"
             ]
-        }, 
+        },
         {
             "id": "kiss",
             "title": "KISS",
@@ -245,6 +240,62 @@
             "tags": [
                 "универсальное",
                 "архитектура"
+            ]
+        },
+        {
+            "id": "bcryptjs",
+            "title": "BcryptJS",
+            "version": 1,
+            "description": "Библиотека для хэширования паролей на чистом JS",
+            "tags": [
+                "backend",
+                "javascript",
+                "nodejs/expressjs"
+            ]
+        },
+        {
+            "id": "jwt",
+            "title": "JWT (JSON Web Token)",
+            "version": 1,
+            "description": "Библиотека для безопасной передачи информации между клиентом и сервером в виде JSON-объекта",
+            "tags": [
+                "backend",
+                "javascript",
+                "nodejs/expressjs"
+            ]
+        },
+        {
+            "id": "erl",
+            "title": "express-rate-limit",
+            "version": 1,
+            "description": "Библиотека для ограничения количества запросов за определённый промежуток времени",
+            "tags": [
+                "backend",
+                "javascript",
+                "nodejs/expressjs"
+            ]
+        },
+        {
+            "id": "joi",
+            "title": "Joi",
+            "version": 1,
+            "description": "Библиотека для описания схем валидации данных",
+            "tags": [
+                "backend",
+                "javascript",
+                "nodejs/expressjs"
+            ]
+        },
+        {
+            "id": "mongoose",
+            "title": "Mongoose",
+            "version": 1,
+            "description": "Средство отображения объектных документов для MongoDB",
+            "tags": [
+                "backend",
+                "javascript",
+                "nodejs/expressjs",
+                "база данных"
             ]
         }
     ]
